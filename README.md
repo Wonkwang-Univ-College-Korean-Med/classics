@@ -146,6 +146,20 @@
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/suwen-kaozhu.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/suwen-kaozhu/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%86%8C%EB%AC%B8%EA%B3%A0%EC%A3%BC/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%20%EA%B3%A0%EC%A3%BC%20-%20%EC%82%BC%EB%A6%BD%EC%A7%80_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%2010%EC%9D%BC.html))*
 
+### 19. 황제내경집해 · 소문 (黃帝內經集解 · 素問)
+* **편저:** 용백견(龍伯堅)·용식소(龍式昭)
+* **원출판:** 천진과학기술출판사(天津科學技術出版社)
+* **설명:** 용백견이 수십 년에 걸쳐 『소문(素問)』 81편 경문 아래 왕빙·마시·장개빈·장지총·단파원간 등 역대 주가의 설을 【集解】로 집대성하고 【释题】【提要】【本段提纲】과 「伯坚按」 고증, 편마다 현대 중국어 今译을 붙인 소문 집주(集注)의 대표 정본 원문 열람판 (도판 53점, 黄帝内经考 부록 포함).
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/suwen-jijie.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/suwen-jijie/))*
+
+### 20. 황제내경집해 · 영추 (黃帝內經集解 · 靈樞)
+* **편저:** 용백견(龍伯堅)·용식소(龍式昭)
+* **원출판:** 천진과학기술출판사(天津科學技術出版社)
+* **설명:** 『영추(靈樞)』 81편 경문 아래 양상선·마시·장개빈·장지총·단파원간 등 역대 주가의 설을 【集解】로 집대성하고, 『갑을경』·『태소』·『유경』 편목 대조표와 「伯坚按」 고증, 편마다 현대 중국어 今译을 붙인 용백견·용식소의 영추 집주 정본 원문 열람판 (원서 오식 각주 표기).
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/lingshu-jijie.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/lingshu-jijie/))*
+
 ---
 
 ## ✨ 웹 전자책 공통 주요 기능
@@ -215,8 +229,10 @@
 | **`침구임상변증논치/`** | `index.html` / `침구임상변증론치...html` | 변증논치·자침보사 임상 최고 명저 한국어 완역 |
 | | `침구임상변증논치_번역_통합.md` | 전문 텍스트 마크다운 |
 | | `README.md` | 작품 개요 및 서지 안내문 |
+| **`황제내경집해/`** | `황제내경집해 소문_원문열람...html` / `황제내경집해 영추_원문열람...html` | 용백견·용식소 『황제내경집해』 소문·영추 원문 열람판 |
+| | `소문_md/` / `영추_md/` | 편(篇)별로 나눈 원문 마크다운(각 81편 + 서문·부록, `README.md` 목차, `images/` 도판) |
 | **루트 웹 배포 인프라** | `index.html` | 도서관 통합 메인 포털 홈 |
-| | `[slug].html` / `[slug]/index.html` | 18개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
+| | `[slug].html` / `[slug]/index.html` | 20개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
 | | `images/` | 중국침구사도감 고해상도 유물 도판(`fig`, `figzoom`) 공통 자산 |
 | | `deploy_to_gdrive.py` / `.bat` | 로컬 작업공간 ➔ 구글 드라이브 동기화 배포 도구 |
 | | `README.md` | 도서관 종합 설명서 |
