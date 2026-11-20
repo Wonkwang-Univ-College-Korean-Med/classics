@@ -3,7 +3,7 @@
 > **한의학 및 침구학 핵심 고전 및 학술 저작의 한국어 완역본과 원문 웹 전자책(Web E-Book) 저장소입니다.**  
 > PC, 태블릿, 스마트폰 등 모든 웹 브라우저에서 별도 설치 없이 즉시 열람하실 수 있습니다.
 
-[![GitHub Pages](https://img.shields.io/badge/Web%20Library-GitHub%20Pages-blue?style=flat-square&logo=github)](https://jaehyokim-sketch.github.io/classics/)
+[![GitHub Pages](https://img.shields.io/badge/Web%20Library-GitHub%20Pages-blue?style=flat-square&logo=github)](https://wonkwang-univ-college-korean-med.github.io/classics/)
 
 > [!WARNING]
 > **⚠️ 주의사항**  
@@ -13,7 +13,7 @@
 ---
 
 ## 🏛️ 디지털 도서관 포털 홈 (통합 메인)
-**👉 [https://jaehyokim-sketch.github.io/classics/](https://jaehyokim-sketch.github.io/classics/)**
+**👉 [https://wonkwang-univ-college-korean-med.github.io/classics/](https://wonkwang-univ-college-korean-med.github.io/classics/)**
 
 * 도서관 메인 홈에서 실시간 검색 및 필터링(한국어 완역본 / 원문 정본 / 황룡상 교수 저작 / 기초 원전)을 통해 원하는 고전을 선택하여 바로 읽으실 수 있습니다.
 
@@ -25,140 +25,140 @@
 * **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 저
 * **원출판:** 화하출판사(華夏出版社), 2001년 초판 (84만 3천 자)
 * **설명:** 선진(先秦)부터 청대·현대에 이르기까지 2천 년 침구학술 발전 전 과정을 引论·经络·腧穴·刺灸法·治疗 5개 부문으로 전면 재구성하여 침구학술사의 정체성을 학술사적 실증주의로 정립한 황룡상 교수의 불후의 기념비적 학술사 대작 원문 정본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/xueshushi-dagang.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/xueshushi-dagang/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%ED%95%99%EC%88%A0%EC%82%AC%EB%8C%80%EA%B0%95/%ED%99%A9%EC%9A%A9%EC%83%81%EC%B9%A8%EA%B5%AC%ED%95%99%EC%88%A0%EC%82%AC%EB%8C%80%EA%B0%95_OCR_%ED%86%B5%ED%95%A9.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/xueshushi-dagang.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/xueshushi-dagang/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%ED%95%99%EC%88%A0%EC%82%AC%EB%8C%80%EA%B0%95/%ED%99%A9%EC%9A%A9%EC%83%81%EC%B9%A8%EA%B5%AC%ED%95%99%EC%88%A0%EC%82%AC%EB%8C%80%EA%B0%95_OCR_%ED%86%B5%ED%95%A9.html))*
 
 ### 2. 경맥 이론 환원과 재구성 대강 (經脈理論還原與重構大綱 / 经脉理论还原与重构大纲)
 * **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 저
 * **원출판:** 인민위생출판사(人民衛生出版社), 2016년
 * **설명:** 마왕퇴백서·장가산한간 등 고대 출토 문헌과 선진·진한 전적을 바탕으로 왜곡·변형된 경맥 이론을 본래의 사실로 환원(还原)하고, 현대 의과학적 사실과 실증적 임상 경험을 결합하여 경맥과 수혈의 이론 체계를 새롭게 재구성(重构)한 황룡상 교수의 대표 이론 대강 삼부작의 제1부 명저 한국어 완역본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/jingmai-huanyuan.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/jingmai-huanyuan/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EA%B2%BD%EB%A7%A5%EC%9D%B4%EB%A1%A0%ED%99%98%EC%9B%90%EC%97%AC%EC%9E%AC%EA%B5%AC%EC%84%B1%EB%8C%80%EA%B0%95/%E7%BB%8F%E8%84%89%E7%90%86%E8%AE%BA%E8%BF%98%E5%8E%9F%E4%B8%8E%E9%87%8D%E6%9E%84%E5%A4%A7%E7%BA%B2_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%202%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/jingmai-huanyuan.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/jingmai-huanyuan/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EA%B2%BD%EB%A7%A5%EC%9D%B4%EB%A1%A0%ED%99%98%EC%9B%90%EC%97%AC%EC%9E%AC%EA%B5%AC%EC%84%B1%EB%8C%80%EA%B0%95/%E7%BB%8F%E8%84%89%E7%90%86%E8%AE%BA%E8%BF%98%E5%8E%9F%E4%B8%8E%E9%87%8D%E6%9E%84%E5%A4%A7%E7%BA%B2_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%202%EC%9D%BC.html))*
 
 ### 3. 황용상간침구 (黃龍祥看鍼灸 / 黄龙祥看针灸)
 * **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 저
 * **원출판:** 인민위생출판사(人民衛生出版社), 2008년 (도설중의 총서)
 * **설명:** 수혈의 탄생, 경락의 발견, 명당공혈의 변천, 침구동인의 역사와 침구 진료의 삼위일체 원리를 154점의 정밀 도판과 함께 "인체 교향악의 음향사"라는 독창적 통찰로 풀어낸 황룡상 교수의 그림 침구학 입문·통찰 명저 한국어 완역본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/kan-zhenjiu.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/kan-zhenjiu/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%ED%99%A9%EC%9A%A9%EC%83%81%EA%B0%84%EC%B9%A8%EA%B5%AC/%ED%99%A9%EC%9A%A9%EC%83%81%EA%B0%84%EC%B9%A8%EA%B5%AC_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%202%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/kan-zhenjiu.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/kan-zhenjiu/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%ED%99%A9%EC%9A%A9%EC%83%81%EA%B0%84%EC%B9%A8%EA%B5%AC/%ED%99%A9%EC%9A%A9%EC%83%81%EA%B0%84%EC%B9%A8%EA%B5%AC_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%202%EC%9D%BC.html))*
 
 ### 4. 침구임상변증논치 (鍼灸臨床辨證論治 / 针灸临床辨证论治)
 * **저자:** 이세진(李世珍)·이전기(李傳岐)·이완량(李宛亮) 지음
 * **원출판:** 인민위생출판사(人民衛生出版社), 2017년, 제2판
 * **설명:** 40여 년의 임상 경험을 토대로 명대 진회(陳會)의 『신응경(神應經)』 염전보사법(捻轉補瀉法)과 장부·경락·팔강변증에 입각한 침구 선혈(選穴)·배혈(配穴) 및 자침 보사의 원칙과 수기법을 구체적인 임상 질환별로 체계화한 현대 침구 임상 변증논치의 최고 실용 명저 한국어 완역본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/bianzheng-lunzhi.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/bianzheng-lunzhi/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%B9%A8%EA%B5%AC%EC%9E%84%EC%83%81%EB%B3%80%EC%A6%9D%EB%85%BC%EC%B9%98/%EC%B9%A8%EA%B5%AC%EC%9E%84%EC%83%81%EB%B3%80%EC%A6%9D%EB%A1%A0%EC%B9%98_%EC%9D%B4%EC%84%B8%EC%A7%84_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%2031%EC%9D%BC-1.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/bianzheng-lunzhi.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/bianzheng-lunzhi/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%B9%A8%EA%B5%AC%EC%9E%84%EC%83%81%EB%B3%80%EC%A6%9D%EB%85%BC%EC%B9%98/%EC%B9%A8%EA%B5%AC%EC%9E%84%EC%83%81%EB%B3%80%EC%A6%9D%EB%A1%A0%EC%B9%98_%EC%9D%B4%EC%84%B8%EC%A7%84_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%2031%EC%9D%BC-1.html))*
 
 ### 5. 침구수혈통고 (鍼灸腧穴通考 / 针灸腧穴通考)
 * **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 저
 * **원출판:** 중국의약과학기술출판사(中國醫藥科技出版社), 2011년 판본
 * **설명:** 갑골문·금문·마왕퇴백서·한간·둔황권자 및 역대 수백 종 의학 전적을 망라하여 14경혈 및 경외기혈 전체의 명칭 유래, 혈위 변천, 취혈법, 주치증, 자침법의 원류를 실증주의 문헌학으로 집대성한 황룡상 교수의 대표 역작이자 경혈학 고증의 최고봉 원문 정본 (도판 496점 완비).
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/shuxue-tongkao.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/shuxue-tongkao/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%B9%A8%EA%B5%AC%EC%88%98%ED%98%88%ED%86%B5%EA%B3%A0/%EC%B9%A8%EA%B5%AC%EC%88%98%ED%98%88%ED%86%B5%EA%B3%A0_%EC%9B%90%EB%AC%B8%EC%97%B4%EB%9E%8C_%EC%A0%84%EA%B6%8C.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/shuxue-tongkao.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/shuxue-tongkao/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%B9%A8%EA%B5%AC%EC%88%98%ED%98%88%ED%86%B5%EA%B3%A0/%EC%B9%A8%EA%B5%AC%EC%88%98%ED%98%88%ED%86%B5%EA%B3%A0_%EC%9B%90%EB%AC%B8%EC%97%B4%EB%9E%8C_%EC%A0%84%EA%B6%8C.html))*
 
 ### 6. 중의백병명원고 (中醫百病名源考)
 * **저자:** 장강(張綱, 중화의학회 북경분회) 저
 * **설명:** 갑골문·금문·설문해자 및 선진 진한 고전 의학 문헌을 바탕으로 100여 개 고대 중의 병명의 시인(始因)·형징(形征)·전귀(轉歸)와 형·음·의 어원을 실증적으로 고증한 한의 병명 어원학의 최고 정본 한국어 완역본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/baibing-mingyuankao.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/baibing-mingyuankao/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EC%9D%98%EB%B0%B1%EB%B3%91%EB%AA%85%EC%9B%90%EA%B3%A0/%EC%A4%91%EC%9D%98%EB%B0%B1%EB%B3%91%EB%AA%85%EC%9B%90%EA%B3%A0_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%201%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/baibing-mingyuankao.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/baibing-mingyuankao/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%A4%91%EC%9D%98%EB%B0%B1%EB%B3%91%EB%AA%85%EC%9B%90%EA%B3%A0/%EC%A4%91%EC%9D%98%EB%B0%B1%EB%B3%91%EB%AA%85%EC%9B%90%EA%B3%A0_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%201%EC%9D%BC.html))*
 
 ### 7. 중국침구혈위통감 (中國鍼灸穴位通鑑 / 中国针灸穴位通鉴)
 * **주편:** 왕덕심(王德深) 주편
 * **원출판:** 청도출판사(靑島出版社), 2004년 제2판
 * **설명:** 선진(先秦)부터 청대(淸代)까지 2천 년 침구 수혈(혈위)의 명칭 유래, 취혈 부위 변천, 고전 자침법 및 주치 전적을 도판 397점과 함께 총망라 집대성한 수혈학술사 최고 정본 통감.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/xuewei-tongjian.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/xuewei-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%ED%98%88%EC%9C%84%ED%86%B5%EA%B0%90/%EC%99%95%EB%8D%95%EC%8B%AC%ED%98%88%EC%9C%84%ED%86%B5%EA%B0%90_%EC%9B%90%EB%AC%B8%EC%97%B4%EB%9E%8C%20-%202026%EB%85%84%2010%EC%9B%94%2018%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/xuewei-tongjian.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/xuewei-tongjian/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%ED%98%88%EC%9C%84%ED%86%B5%EA%B0%90/%EC%99%95%EB%8D%95%EC%8B%AC%ED%98%88%EC%9C%84%ED%86%B5%EA%B0%90_%EC%9B%90%EB%AC%B8%EC%97%B4%EB%9E%8C%20-%202026%EB%85%84%2010%EC%9B%94%2018%EC%9D%BC.html))*
 
 ### 8. 중국침구증치통감 (中國鍼灸證治通鑑 / 中国针灸证治通鉴)
 * **주편:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 주편
 * **원출판:** 청도출판사(靑島出版社), 제2판 개정수정판
 * **설명:** 선진(先秦)부터 청대(淸代)까지 2천 년 침구 임상 처방과 경혈 주치·증치(證治) 전적을 내·외·부·아과 등 병증별로 총망라하여 집대성한 임상 침구학 최고 정본 통감 한국어 완역본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/zhengzhi-tongjian.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/zhengzhi-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%A6%9D%EC%B9%98%ED%86%B5%EA%B0%90/%E4%B8%AD%E5%9B%BD%E9%92%88%E7%81%B8%E8%AF%81%E6%B2%BB%E9%80%9A%E9%89%B4_2%ED%8C%90_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%2010%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/zhengzhi-tongjian.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/zhengzhi-tongjian/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%A6%9D%EC%B9%98%ED%86%B5%EA%B0%90/%E4%B8%AD%E5%9B%BD%E9%92%88%E7%81%B8%E8%AF%81%E6%B2%BB%E9%80%9A%E9%89%B4_2%ED%8C%90_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%2010%EC%9D%BC.html))*
 
 ### 9. 중국침구사도감 상권 (中國鍼灸史圖鑑 上卷)
 * **주편:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 주편
 * **원출판:** 청도출판사(靑島出版社), 2003년
 * **설명:** 신석기시대 폄석부터 수·당·송대 침구 유물과 침구동인에 이르기까지 도판 1,109점을 고증 해설과 함께 집대성한 한국어 완역본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/history-atlas-vol1.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/history-atlas-vol1/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%82%AC%EB%8F%84%EA%B0%90/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%82%AC%EB%8F%84%EA%B0%90_%EC%83%81%EA%B7%8C%20-%202026%EB%85%84%2010%EC%9B%94%2031%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/history-atlas-vol1.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/history-atlas-vol1/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%82%AC%EB%8F%84%EA%B0%90/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%82%AC%EB%8F%84%EA%B0%90_%EC%83%81%EA%B7%8C%20-%202026%EB%85%84%2010%EC%9B%94%2031%EC%9D%BC.html))*
 
 ### 10. 중국침구사도감 하권 (中國鍼灸史圖鑑 下卷)
 * **주편:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 주편
 * **원출판:** 청도출판사(靑島出版社), 2003년
 * **설명:** 금원(金元) 시대부터 명·청대 침구동인 주조 및 근대 전적 도판 822점을 수록하여 침구사 발전 궤적을 복원한 한국어 완역본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/history-atlas-vol2.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/history-atlas-vol2/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%82%AC%EB%8F%84%EA%B0%90/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%82%AC%EB%8F%84%EA%B0%90_%ED%95%98%EA%B7%8C%20-%202026%EB%85%84%2010%EC%9B%94%2031%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/history-atlas-vol2.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/history-atlas-vol2/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%82%AC%EB%8F%84%EA%B0%90/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%82%AC%EB%8F%84%EA%B0%90_%ED%95%98%EA%B7%8C%20-%202026%EB%85%84%2010%EC%9B%94%2031%EC%9D%BC.html))*
 
 ### 11. 중국고전침구학대강 (中國古典鍼灸學大綱)
 * **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 저
 * **원출판:** 인민위생출판사(人民衛生出版社), 2019년
 * **설명:** 고전 침구 이론(경맥·수혈·침법·진단)의 발생 원리와 본원적 체계를 실증적으로 분석하고 30년 침구학술사 연구를 대강(大綱) 형식으로 집대성한 역작의 한국어 완역본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/classical-acupuncture.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/classical-acupuncture/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EA%B3%A0%EC%A0%84%EC%B9%A8%EA%B5%AC%ED%95%99%EB%8C%80%EA%B0%95/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E5%85%B8%E9%92%88%E7%81%B8%E5%AD%A6%E5%A4%A7%E7%BA%B2_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%201%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/classical-acupuncture.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/classical-acupuncture/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%A4%91%EA%B5%AD%EA%B3%A0%EC%A0%84%EC%B9%A8%EA%B5%AC%ED%95%99%EB%8C%80%EA%B0%95/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E5%85%B8%E9%92%88%E7%81%B8%E5%AD%A6%E5%A4%A7%E7%BA%B2_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%201%EC%9D%BC.html))*
 
 ### 12. 신고전침구학대강 (新古典鍼灸學大綱)
 * **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 저
 * **원출판:** 인민위생출판사(人民衛生出版社), 2022년 (CIP 2022.12)
 * **설명:** 고전 침구 이론의 실증적 환원과 임상 표준화를 집대성한 황룡상 교수의 대표 결정판 한국어 완역본. 기병치막(器病治膜), 장침모자법(长针募刺法) 등 고전 임상 침구학의 정수를 현대 의학적 실증주의로 고증.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/neoclassical-acupuncture.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/neoclassical-acupuncture/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%8B%A0%EA%B3%A0%EC%A0%84%EC%B9%A8%EA%B5%AC%ED%95%99%EB%8C%80%EA%B0%95/%E6%96%B0%E5%8F%A4%E5%85%B8%E9%92%88%E7%81%B8%E5%AD%A6%E5%A4%A7%E7%BA%B2_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%2016%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/neoclassical-acupuncture.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/neoclassical-acupuncture/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%8B%A0%EA%B3%A0%EC%A0%84%EC%B9%A8%EA%B5%AC%ED%95%99%EB%8C%80%EA%B0%95/%E6%96%B0%E5%8F%A4%E5%85%B8%E9%92%88%E7%81%B8%E5%AD%A6%E5%A4%A7%E7%BA%B2_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%2016%EC%9D%BC.html))*
 
 ### 13. 중국침구경락통감 (中國鍼灸經絡通鑑 / 中国针灸经络通鉴)
 * **주편:** 황룡상(黃龍祥) 주편
 * **원출판:** 청도출판사(靑島出版社), 2003년
 * **설명:** 선진(先秦) 마왕퇴 한간·백서부터 청대(淸代)에 이르기까지 2천 년 중국 침구 경맥·낙맥·경근·경별 전적의 원문과 역사적 도판 206점을 총망라하여 시대별로 집대성한 경락학술사의 최고 정본 통감.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/jingluo-tongjian.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/jingluo-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90(%E4%B8%AD%E5%9B%BD%E9%92%88%E7%81%B8%E7%BB%8F%E7%BB%9C%E9%80%9A%E9%89%B4%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90)_%EC%9B%90%EB%AC%B8%EC%97%B4%EB%9E%8C%20-%202026%EB%85%84%2010%EC%9B%94%2025%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/jingluo-tongjian.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/jingluo-tongjian/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90(%E4%B8%AD%E5%9B%BD%E9%92%88%E7%81%B8%E7%BB%8F%E7%BB%9C%E9%80%9A%E9%89%B4%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90)_%EC%9B%90%EB%AC%B8%EC%97%B4%EB%9E%8C%20-%202026%EB%85%84%2010%EC%9B%94%2025%EC%9D%BC.html))*
 
 ### 14. 황제내경소문 교주어역 (黃帝內經素問 校注語譯)
 * **편저:** 곽애춘(郭靄春, 1912~2001) 편저
 * **원출판:** 천진과학기술출판사(天津科學技術出版社)
 * **설명:** 한의학 음양·오행·장부·병기·치칙 기초 이론의 최고 원전인 『소문(素問)』 81편 전체에 대한 정밀한 교감(校勘), 주석(注釋), 어역(語譯)의 한국어 완역본. 마우스 호버 역주 팝업, 81편 전체 계층 목차, 원서 희귀 글자 및 도판 완비.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/suwen.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/suwen/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%EC%86%8C%EB%AC%B8/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%EC%86%8C%EB%AC%B8_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%203%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/suwen.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/suwen/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%EC%86%8C%EB%AC%B8/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%EC%86%8C%EB%AC%B8_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%203%EC%9D%BC.html))*
 
 ### 15. 황제내경영추 교주어역 (黃帝內經靈樞 校注語譯)
 * **편저:** 곽애춘(郭靄春, 1912~2001) 편저
 * **원출판:** 천진과학기술출판사(天津科學技術出版社)
 * **설명:** 침구학 및 한의학 이론의 최고 정본인 『영추(靈樞)』 81편에 대한 정밀한 교감(校勘), 주석(注釋), 어역(語譯)의 한국어 완역본. 마우스 호버 역주 팝업, 81편 전체 계층 목차, 원서 희귀 글자 및 도판 143종 완비.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/lingshu.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/lingshu/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%EC%98%81%EC%B6%94/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%EC%98%81%EC%B6%94_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%203%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/lingshu.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/lingshu/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%EC%98%81%EC%B6%94/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%EC%98%81%EC%B6%94_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%203%EC%9D%BC.html))*
 
 ### 16. 중국침구자구법통감 (中國鍼灸刺灸法通鑑 / 中国针灸刺灸法通鉴)
 * **주편:** 황용상(黃龍祥) · 등양월(鄧良月) 주편
 * **원출판:** 청도출판사(靑島出版社), 2023년
 * **설명:** 선진(先秦) 시기부터 청대 및 근현대에 이르기까지 2천 년 역대 침구 문헌의 호침·화침·도할 등 고대 자법, 이침·두피침·완과침 등 현대 미침 및 특수자법, 반흔구·격물구 등 구법(灸法) 전면과 고대 가부·소문유편 자법론을 총망라하여 집대성한 침구 자구 수기법의 최고 정본 통감 한국어 완역본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/cijiu-tongjian.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/cijiu-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%9E%90%EA%B5%AC%EB%B2%95%ED%86%B5%EA%B0%90/%ED%99%A9%EC%9A%A9%EC%83%81%EC%9E%90%EA%B5%AC%EB%B2%95%ED%86%B5%EA%B0%90_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%208%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/cijiu-tongjian.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/cijiu-tongjian/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%9E%90%EA%B5%AC%EB%B2%95%ED%86%B5%EA%B0%90/%ED%99%A9%EC%9A%A9%EC%83%81%EC%9E%90%EA%B5%AC%EB%B2%95%ED%86%B5%EA%B0%90_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%208%EC%9D%BC.html))*
 
 ### 17. 금침매화시초 (金針梅花詩鈔 / 金针梅花诗钞)
 * **저자:** 청(淸)·주수동(周樹冬) 유고 · 주미성(周楣聲) 중정
 * **원출판:** 안휘과학기술출판사(1982년) / 도서출판 의성당(醫聖堂)
 * **설명:** 청말 명의 주수동의 유고를 손자 주미성이 발굴·교정하여 역대 침구 문헌의 정수와 주씨 가문 4대의 임상 경험, 매화파(梅花派) 독문 침방 및 진출침 요령 자침 21절·십사경 요혈시를 유려한 시가(詩歌)로 집대성한 침술 명저 한국어 완역본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/jinzhen-meihua.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/jinzhen-meihua/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EA%B8%88%EC%B9%A8%EB%A7%A4%ED%99%94%EC%8B%9C%EC%B4%88/%EA%B8%88%EC%B9%A8%EB%A7%A4%ED%99%94%EC%8B%9C%EC%B4%88_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%2010%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/jinzhen-meihua.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/jinzhen-meihua/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EA%B8%88%EC%B9%A8%EB%A7%A4%ED%99%94%EC%8B%9C%EC%B4%88/%EA%B8%88%EC%B9%A8%EB%A7%A4%ED%99%94%EC%8B%9C%EC%B4%88_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%2010%EC%9D%BC.html))*
 
 ### 18. 소문고주 (素問攷注 / 素问考注)
 * **저자:** 삼립지(森立之, 1807~1885) 찬 · 곽수매(郭秀梅)·오카다 겐키치(岡田研吉) 교주
 * **원출판:** 학원출판사(學苑出版社), 수정판 상·하권 (1,713쪽)
 * **설명:** 일본 에도 시대 고증학의 거두 삼립지가 평생에 걸쳐 『소문(素問)』 81편 전체를 한·중·일 수백 종의 의학 전적 및 고전과 정밀 대조하여 훈고·고증·교감한 의학 고증학의 불후의 최고봉 명저 한국어 완역본.
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/suwen-kaozhu.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/suwen-kaozhu/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%86%8C%EB%AC%B8%EA%B3%A0%EC%A3%BC/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%20%EA%B3%A0%EC%A3%BC%20-%20%EC%82%BC%EB%A6%BD%EC%A7%80_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%2010%EC%9D%BC.html))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/suwen-kaozhu.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/suwen-kaozhu/) | [원본 파일명 URL](https://wonkwang-univ-college-korean-med.github.io/classics/%EC%86%8C%EB%AC%B8%EA%B3%A0%EC%A3%BC/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%20%EA%B3%A0%EC%A3%BC%20-%20%EC%82%BC%EB%A6%BD%EC%A7%80_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%2010%EC%9D%BC.html))*
 
 ### 19. 황제내경집해 · 소문 (黃帝內經集解 · 素問)
 * **편저:** 용백견(龍伯堅)·용식소(龍式昭)
 * **원출판:** 천진과학기술출판사(天津科學技術出版社)
 * **설명:** 용백견이 수십 년에 걸쳐 『소문(素問)』 81편 경문 아래 왕빙·마시·장개빈·장지총·단파원간 등 역대 주가의 설을 【集解】로 집대성하고 【释题】【提要】【本段提纲】과 「伯坚按」 고증, 편마다 현대 중국어 今译을 붙인 소문 집주(集注)의 대표 정본 원문 열람판 (도판 53점, 黄帝内经考 부록 포함).
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/suwen-jijie.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/suwen-jijie/))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/suwen-jijie.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/suwen-jijie/))*
 
 ### 20. 황제내경집해 · 영추 (黃帝內經集解 · 靈樞)
 * **편저:** 용백견(龍伯堅)·용식소(龍式昭)
 * **원출판:** 천진과학기술출판사(天津科學技術出版社)
 * **설명:** 『영추(靈樞)』 81편 경문 아래 양상선·마시·장개빈·장지총·단파원간 등 역대 주가의 설을 【集解】로 집대성하고, 『갑을경』·『태소』·『유경』 편목 대조표와 「伯坚按」 고증, 편마다 현대 중국어 今译을 붙인 용백견·용식소의 영추 집주 정본 원문 열람판 (원서 오식 각주 표기).
-* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/lingshu-jijie.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/lingshu-jijie/))*
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/lingshu-jijie.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/lingshu-jijie/))*
 
 ---
 
