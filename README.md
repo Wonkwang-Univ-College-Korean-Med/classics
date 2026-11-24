@@ -181,6 +181,13 @@
 * *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/zhongchengyao-264/))*
 * *(원본 생성: `중국의대표중성약264선/scripts/build_zcy264.py --web` — 쪽별 OCR은 `ocr_pages/`, 제품 사진은 `images/zcy264/`)*
 
+### 24. 중국 국의대사 경험방 R&D 인사이트 (中國 國醫大師 經驗方 R&D INSIGHT)
+* **발행:** 한국한의학연구원(KIOM), 2026년 11월 · **기획:** 서명수, 이승우 · **조사·분석·집필:** 이승우, 서명수 · ISBN 978-89-5970-645-7 · 비매품
+* **설명:** 5대 우선순위 질환군의 국의대사 경험방 66종을 처방 아이덴티티·모듈 구성·대사의 학술사상·R&D 제언(대사의 논리 카드 포함)·최근 연구 동향·중국 제품화 현황으로 정리한 책의 대화형 열람판. 66종 비교표 정렬·필터(분야·연구자료 유형·제품화 단계·국의대사), 분야별 연구자료 유형·처방별 제품화 단계 도표, 전문 검색, 약재(조성)·국의대사별 찾기, 최대 4종 비교, 약어·척도 풀이 거르기 포함. 원서 PDF 텍스트 층을 글꼴·좌표로 구조화함(OCR 없음).
+* **👉 [열람판 열기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/guoyi-dashi.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/guoyi-dashi/))*
+* *(원본 생성: `국의대사경험방/scripts/extract_lines.py` → `build_guoyi.py --web`)*
+
 ---
 
 ## ✨ 웹 전자책 공통 주요 기능
@@ -255,8 +262,10 @@
 | | `상용수혈임상발휘_OCR_검수목록.md` | OCR 사전 대조 교정 목록 |
 | **`중국의대표중성약264선/`** | `중국의대표중성약264선.html` / `중국의대표중성약264선_OCR_전문.md` | 한국한의학연구원 『중국의 대표 중성약 264選』 대화형 열람판·OCR 전문 마크다운 |
 | | `ocr_pages/` · `scripts/` | 쪽별 OCR 결과(568쪽)·OCR 배치·빌더 스크립트 |
+| **`국의대사경험방/`** | `국의대사경험방_RD인사이트.html` / `국의대사경험방_RD인사이트_전문.md` | 한국한의학연구원 『중국 국의대사 경험방 R&D 인사이트』 대화형 열람판·구조화 전문 마크다운 |
+| | `scripts/` | PDF 줄 추출(`lines.json`)·구조화 파서·빌더 |
 | **루트 웹 배포 인프라** | `index.html` | 도서관 통합 메인 포털 홈 |
-| | `[slug].html` / `[slug]/index.html` | 23개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
+| | `[slug].html` / `[slug]/index.html` | 24개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
 | | `images/` | 중국침구사도감 고해상도 유물 도판(`fig`, `figzoom`) 공통 자산 |
 | | `deploy_to_gdrive.py` / `.bat` | 로컬 작업공간 ➔ 구글 드라이브 동기화 배포 도구 |
 | | `README.md` | 도서관 종합 설명서 |
