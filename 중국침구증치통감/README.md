@@ -2,7 +2,7 @@
 
 > **황룡상(黃龍祥) 주편 · 청도출판사(靑島出版社), 2011년 제2판**
 
-[![Web Library](https://img.shields.io/badge/Web%20Library-Classics-blue?style=flat-square)](https://jaehyokim-sketch.github.io/classics/)
+[![Web Library](https://img.shields.io/badge/Web%20Library-Classics-blue?style=flat-square)](https://wonkwang-univ-college-korean-med.github.io/classics/)
 
 ## 📖 작품 개요
 선진(先秦)부터 청대(淸代)까지 2천 년 역대 침구 전적 100여 종에서 질환별 임상 처방, 주치증, 취혈 원칙, 자구 수기법을 병증별로 완벽히 분류·정리하여 현대 임상에 즉시 활용할 수 있도록 집대성한 임상 침구학의 최고 원전 통감 한국어 완역본.
@@ -20,5 +20,5 @@
 ---
 
 ## 🌐 온라인 웹 열람
-- **디지털 도서관 홈:** [https://jaehyokim-sketch.github.io/classics/](https://jaehyokim-sketch.github.io/classics/)
+- **디지털 도서관 홈:** [https://wonkwang-univ-college-korean-med.github.io/classics/](https://wonkwang-univ-college-korean-med.github.io/classics/)
 - 모든 최신 브라우저(크롬·엣지·사파리)에서 단일 파일로 즉시 구동됩니다.

@@ -2,7 +2,7 @@
 
 > **황룡상(黃龍祥) 주편 · 청도출판사(靑島出版社), 2003년**
 
-[![Web Library](https://img.shields.io/badge/Web%20Library-Classics-blue?style=flat-square)](https://jaehyokim-sketch.github.io/classics/)
+[![Web Library](https://img.shields.io/badge/Web%20Library-Classics-blue?style=flat-square)](https://wonkwang-univ-college-korean-med.github.io/classics/)
 
 ## 📖 작품 개요
 선진(先秦) 마왕퇴 한간·백서부터 청대(淸代)에 이르기까지 2천 년 중국 침구 경맥·낙맥·경근·경별 전적의 원문과 역사적 도판 206점을 총망라하여 시대별로 집대성한 경락학술사의 최고 정본 통감.
@@ -20,5 +20,5 @@
 ---
 
 ## 🌐 온라인 웹 열람
-- **디지털 도서관 홈:** [https://jaehyokim-sketch.github.io/classics/](https://jaehyokim-sketch.github.io/classics/)
+- **디지털 도서관 홈:** [https://wonkwang-univ-college-korean-med.github.io/classics/](https://wonkwang-univ-college-korean-med.github.io/classics/)
 - 모든 최신 브라우저(크롬·엣지·사파리)에서 단일 파일로 즉시 구동됩니다.

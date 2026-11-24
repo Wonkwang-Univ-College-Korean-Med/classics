@@ -2,10 +2,10 @@
 
 > **곽애춘(郭靄春) 편저 『황제내경영추 교주어역(黃帝內經靈樞 校注語譯)』 한국어 완역본**
 
-[![GitHub Pages](https://img.shields.io/badge/Web%20Book-GitHub%20Pages-blue?style=flat-square&logo=github)](https://jaehyokim-sketch.github.io/classics/)
+[![GitHub Pages](https://img.shields.io/badge/Web%20Book-GitHub%20Pages-blue?style=flat-square&logo=github)](https://wonkwang-univ-college-korean-med.github.io/classics/)
 
 ## 📖 온라인 웹 전자책 바로가기
-**👉 [https://jaehyokim-sketch.github.io/classics/](https://jaehyokim-sketch.github.io/classics/)**
+**👉 [https://wonkwang-univ-college-korean-med.github.io/classics/](https://wonkwang-univ-college-korean-med.github.io/classics/)**
 
 - PC, 태블릿, 모바일 등 모든 브라우저에서 별도 설치 없이 바로 읽으실 수 있습니다.
 - **주요 기능:**

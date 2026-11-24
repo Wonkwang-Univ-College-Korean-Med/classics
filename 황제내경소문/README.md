@@ -2,7 +2,7 @@
 
 > **곽애춘(郭靄春, 1912~2001) 편저 · 천진과학기술출판사(天津科學技術出版社)**
 
-[![Web Library](https://img.shields.io/badge/Web%20Library-Classics-blue?style=flat-square)](https://jaehyokim-sketch.github.io/classics/)
+[![Web Library](https://img.shields.io/badge/Web%20Library-Classics-blue?style=flat-square)](https://wonkwang-univ-college-korean-med.github.io/classics/)
 
 ## 📖 작품 개요
 한의학 음양·오행·장부·병기·치칙 기초 이론의 최고 원전인 『소문(素問)』 81편 전체에 대한 정밀한 교감(校勘), 주석(注釋), 어역(語譯)의 한국어 완역본. 마우스 호버 역주 팝업, 81편 전체 계층 목차, 원서 희귀 글자 및 도판 완비.
@@ -23,5 +23,5 @@
 ---
 
 ## 🌐 온라인 웹 열람
-- **디지털 도서관 홈:** [https://jaehyokim-sketch.github.io/classics/](https://jaehyokim-sketch.github.io/classics/)
+- **디지털 도서관 홈:** [https://wonkwang-univ-college-korean-med.github.io/classics/](https://wonkwang-univ-college-korean-med.github.io/classics/)
 - 모든 최신 브라우저(크롬·엣지·사파리)에서 단일 파일로 즉시 구동됩니다.

@@ -2,7 +2,7 @@
 
 > **삼립지(森立之, 1807~1885) 찬(撰) · 곽수매(郭秀梅)·오카다 겐키치(岡田研吉) 교주(校注)**
 
-[![Web Library](https://img.shields.io/badge/Web%20Library-Classics-blue?style=flat-square)](https://jaehyokim-sketch.github.io/classics/)
+[![Web Library](https://img.shields.io/badge/Web%20Library-Classics-blue?style=flat-square)](https://wonkwang-univ-college-korean-med.github.io/classics/)
 
 ## 📖 작품 개요
 일본 에도(江戶) 시대 고증학의 거두 삼립지(森立之)가 평생에 걸쳐 『소문(素問)』 81편 전체를 한·중·일 수백 종의 의학 전적 및 고전과 정밀 대조하여 훈고·고증·교감한 의학 고증학의 불후의 최고봉 명저. 학원출판사 수정판 상·하권 1,713쪽 전체를 번역하고 마우스 호버 역주 팝업, 주가 약칭 풀이, 원문 대조 기능을 완비한 한국어 완역본.
@@ -23,6 +23,6 @@
 ---
 
 ## 🌐 온라인 웹 열람
-- **디지털 도서관 홈:** [https://jaehyokim-sketch.github.io/classics/](https://jaehyokim-sketch.github.io/classics/)
-- **소문고주 직결 링크:** [https://jaehyokim-sketch.github.io/classics/suwen-kaozhu.html](https://jaehyokim-sketch.github.io/classics/suwen-kaozhu.html)
+- **디지털 도서관 홈:** [https://wonkwang-univ-college-korean-med.github.io/classics/](https://wonkwang-univ-college-korean-med.github.io/classics/)
+- **소문고주 직결 링크:** [https://wonkwang-univ-college-korean-med.github.io/classics/suwen-kaozhu.html](https://wonkwang-univ-college-korean-med.github.io/classics/suwen-kaozhu.html)
 - 모든 최신 브라우저(크롬·엣지·사파리)에서 단일 파일로 즉시 구동됩니다.

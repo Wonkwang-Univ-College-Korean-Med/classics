@@ -163,7 +163,7 @@ def render(D, web_rel=None):
     auth = f'<script src="{web_rel}auth.js"></script>\n' if web_rel is not None else ""
     counter = ""
     if web_rel is not None:
-        u = f"jaehyokim-sketch.github.io/classics/{SLUG}.html"
+        u = f"wonkwang-univ-college-korean-med.github.io/classics/{SLUG}.html"
         counter = (f'<a class="hits" href="https://hits.sh/{u}/" target="_blank" rel="noopener noreferrer" title="Views 열람 횟수">'
                    f'<img src="https://hits.sh/{u}.svg?style=flat-square&label=%EC%A1%B0%ED%9A%8C%EC%88%98&color=2563eb&labelColor=0f172a" alt="Views"></a>')
     return tpl.replace("<!--__AUTH__-->", auth).replace("<!--__COUNTER__-->", counter).replace("/*__DATA__*/null", js)

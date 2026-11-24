@@ -2,7 +2,7 @@
 
 > **황룡상(黃龍祥, 중국중의과학원 수석연구원) 저 · 인민위생출판사(人民衛生出版社), 2016년**
 
-[![Web Library](https://img.shields.io/badge/Web%20Library-Classics-blue?style=flat-square)](https://jaehyokim-sketch.github.io/classics/)
+[![Web Library](https://img.shields.io/badge/Web%20Library-Classics-blue?style=flat-square)](https://wonkwang-univ-college-korean-med.github.io/classics/)
 
 ## 📖 작품 개요
 마왕퇴백서·장가산한간 등 고대 출토 문헌과 선진·진한 전적을 바탕으로 왜곡·변형된 경맥 이론을 본래의 사실로 환원(还原)하고, 현대 의과학적 사실과 실증적 임상 경험을 결합하여 경맥과 수혈의 이론 체계를 새롭게 재구성(重构)한 황룡상 교수의 대표 이론 대강 삼부작의 제1부 명저 한국어 완역본.
@@ -20,5 +20,5 @@
 ---
 
 ## 🌐 온라인 웹 열람
-- **디지털 도서관 홈:** [https://jaehyokim-sketch.github.io/classics/](https://jaehyokim-sketch.github.io/classics/)
+- **디지털 도서관 홈:** [https://wonkwang-univ-college-korean-med.github.io/classics/](https://wonkwang-univ-college-korean-med.github.io/classics/)
 - 모든 최신 브라우저(크롬·엣지·사파리)에서 단일 파일로 즉시 구동됩니다.
