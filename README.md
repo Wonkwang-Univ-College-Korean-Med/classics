@@ -160,6 +160,13 @@
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/lingshu-jijie.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/lingshu-jijie/))*
 
+### 21. 배문홍의 동의보감임상특강 (裵文洪 東醫寶鑑 臨床特講)
+* **강의:** 배문홍(裵文洪), 원광대학교 한의과대학 (1993) · **편집:** 남문식·이민우
+* **설명:** 배문홍 교수의 『동의보감』 임상특강 강의록을 『동의보감』 원문과 대조해 만든 대화형 진단·치료 시뮬레이터. 18개 병증 모듈에서 사상체질·성별·연령·소화력과 증상·징후를 고르면 병기 판단, 기본방→가감 처방, 체질 보정, 대응 동의보감 조목 원문, 처방의 동의보감 수록 여부, 더 물을 것, 경과·주의, 작동한 공리를 보여 주고 모든 판단에 강의록 행 번호 근거를 단다. 강의 절 499개 찾아보기·공리 14개 포함. 학습·연구용 재구성.
+* **👉 [시뮬레이터 열기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/baemunhong-donguibogam.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/baemunhong-donguibogam/))*
+* *(원본 생성: `donguibogam-disease-analysis/배문홍/scripts/build_simulator.py --web` — 강의록·대조 DB는 Drive·로컬 전용)*
+
 ---
 
 ## ✨ 웹 전자책 공통 주요 기능
@@ -231,7 +238,7 @@
 | | `README.md` | 작품 개요 및 서지 안내문 |
 | **`황제내경집해/`** | `황제내경집해 소문_원문열람...html` / `황제내경집해 영추_원문열람...html` | 용백견·용식소 『황제내경집해』 소문·영추 원문 열람판 |
 | **루트 웹 배포 인프라** | `index.html` | 도서관 통합 메인 포털 홈 |
-| | `[slug].html` / `[slug]/index.html` | 20개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
+| | `[slug].html` / `[slug]/index.html` | 21개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
 | | `images/` | 중국침구사도감 고해상도 유물 도판(`fig`, `figzoom`) 공통 자산 |
 | | `deploy_to_gdrive.py` / `.bat` | 로컬 작업공간 ➔ 구글 드라이브 동기화 배포 도구 |
 | | `README.md` | 도서관 종합 설명서 |
