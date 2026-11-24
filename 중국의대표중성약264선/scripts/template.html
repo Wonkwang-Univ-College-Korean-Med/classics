@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<!--__AUTH__--><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>중국의 대표 중성약 264選 — 한국한의학연구원(2022) 대화형 열람판</title>
+<meta name="description" content="한국한의학연구원 『중국의 대표 중성약 264選』(2022) 전문을 약물·효능분류·약재·처방유형·제형으로 찾아보고 비교하는 대화형 전자책">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@400;600;700&family=Noto+Serif+TC:wght@400;600&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f4ee; --panel:#fffdf9; --ink:#2b2520; --muted:#6f655b; --line:#e4dcd0; --soft:#efe8dc;
+  --brand:#8a6d46; --brand-ink:#ffffff; --accent:#2f6f62; --mark:#fde68a; --chip:#f1eadf; --chip-ink:#5b4a35;
+  --shadow:0 1px 2px rgba(60,40,20,.06),0 4px 14px rgba(60,40,20,.06);
+  --serif:"Noto Serif KR","Noto Serif TC","Batang","AppleMyungjo",serif;
+  --sans:"Noto Sans KR","Noto Sans SC","Malgun Gothic","Apple SD Gothic Neo",sans-serif;
+  --fs:16px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1b1916; --panel:#23201c; --ink:#ece6dd; --muted:#a89f93; --line:#3a342d; --soft:#2c2823;
+    --brand:#c4a477; --brand-ink:#1b1916; --accent:#7cc4b2; --mark:#6b5a1e; --chip:#332d26; --chip-ink:#e2d3bd;
+    --shadow:0 1px 2px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1b1916; --panel:#23201c; --ink:#ece6dd; --muted:#a89f93; --line:#3a342d; --soft:#2c2823;
+  --brand:#c4a477; --brand-ink:#1b1916; --accent:#7cc4b2; --mark:#6b5a1e; --chip:#332d26; --chip-ink:#e2d3bd;
+  --shadow:0 1px 2px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:var(--fs);line-height:1.7;-webkit-text-size-adjust:100%}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+button{font:inherit;color:inherit}
+mark{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
+
+/* ── header ── */
+.top{position:sticky;top:0;z-index:30;background:var(--panel);border-bottom:1px solid var(--line);box-shadow:var(--shadow)}
+.top-in{display:flex;align-items:center;gap:10px;padding:8px 16px;max-width:1400px;margin:0 auto}
+.brand{display:flex;flex-direction:column;min-width:0;cursor:pointer}
+.brand b{font-family:var(--serif);font-size:1.12rem;letter-spacing:.02em;white-space:nowrap}
+.brand small{color:var(--muted);font-size:.74rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.search{flex:1;display:flex;min-width:0}
+.search input{flex:1;min-width:0;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:8px 14px;font:inherit;font-size:.95rem}
+.search input:focus{outline:2px solid var(--brand);outline-offset:1px}
+.ibtn{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:6px 9px;cursor:pointer;font-size:.85rem;white-space:nowrap}
+.ibtn:hover{background:var(--soft)}
+.ibtn.on{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+.hits img{height:20px;vertical-align:middle;border-radius:3px}
+#menuBtn{display:none}
+.cmpcount{display:inline-block;min-width:1.3em;text-align:center;background:var(--brand);color:var(--brand-ink);border-radius:999px;font-size:.72rem;padding:0 5px;margin-left:3px}
+
+/* ── layout ── */
+.wrap{display:grid;grid-template-columns:300px minmax(0,1fr);max-width:1400px;margin:0 auto}
+.side{position:sticky;top:57px;height:calc(100vh - 57px);overflow:auto;border-right:1px solid var(--line);padding:12px 10px 40px;background:var(--bg)}
+.main{padding:20px 28px 80px;min-width:0}
+.tabs{display:flex;gap:4px;margin-bottom:10px}
+.tabs button{flex:1;border:1px solid var(--line);background:var(--panel);padding:6px 4px;border-radius:8px;cursor:pointer;font-size:.85rem}
+.tabs button.on{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+.nav{font-size:.9rem}
+.nav details{margin:1px 0}
+.nav summary{cursor:pointer;padding:3px 6px;border-radius:6px;list-style:none}
+.nav summary::-webkit-details-marker{display:none}
+.nav summary::before{content:"▸";display:inline-block;width:1em;color:var(--muted);transition:transform .15s}
+.nav details[open]>summary::before{transform:rotate(90deg)}
+.nav summary:hover,.nav a:hover{background:var(--soft);text-decoration:none}
+.nav a{display:block;padding:2px 6px 2px 1.6em;border-radius:6px;color:var(--ink)}
+.nav a.cur{background:var(--brand);color:var(--brand-ink)}
+.nav .lv1>summary{font-weight:700}
+.nav .lv2{margin-left:.7em}
+.nav .lv3{margin-left:1.4em}
+.nav .n{color:var(--muted);font-size:.8em;margin-right:.3em}
+.nav a.cur .n{color:inherit}
+.nav .grp{font-size:.78rem;color:var(--muted);margin:12px 6px 4px;letter-spacing:.06em}
+.side input.filt{width:100%;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:6px 10px;font:inherit;font-size:.88rem;margin-bottom:8px}
+.herbli{display:flex;justify-content:space-between;padding:2px 8px;border-radius:6px;color:var(--ink);font-size:.9rem}
+.herbli:hover{background:var(--soft);text-decoration:none}
+.herbli span{color:var(--muted);font-size:.8em}
+
+/* ── content ── */
+.crumb{color:var(--muted);font-size:.85rem;margin-bottom:6px}
+.crumb a{color:var(--muted)}
+h1.t{font-family:var(--serif);font-size:1.75rem;line-height:1.35;margin:.1em 0 .2em;font-weight:700}
+h1.t .hz{font-weight:600;color:var(--brand);margin-left:.25em}
+h1.t .no{display:inline-block;font-family:var(--sans);font-size:.9rem;vertical-align:middle;background:var(--chip);color:var(--chip-ink);border-radius:999px;padding:1px 10px;margin-right:8px}
+.sub{color:var(--muted);font-size:.9rem;margin-bottom:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:18px 22px;margin:14px 0}
+.drug-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:start}
+.photos{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;max-width:420px}
+.photos img{height:132px;max-width:200px;object-fit:contain;border-radius:8px;background:#fff;border:1px solid var(--line);padding:4px;cursor:zoom-in}
+.facts{display:flex;flex-wrap:wrap;gap:6px 14px;margin:8px 0 2px;font-size:.9rem}
+.facts .k{color:var(--muted);margin-right:4px}
+.chip{display:inline-block;background:var(--chip);color:var(--chip-ink);border-radius:999px;padding:1px 10px;margin:2px 3px 2px 0;font-size:.85rem;border:0;cursor:pointer;line-height:1.6}
+a.chip:hover{text-decoration:none;filter:brightness(.95)}
+.chip.rx{background:transparent;border:1px solid var(--brand);color:var(--brand);cursor:default}
+.acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.fields{display:grid;grid-template-columns:8.5em minmax(0,1fr);border-top:1px solid var(--line)}
+.fields>dt{font-weight:700;color:var(--brand);padding:12px 10px 12px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+.fields>dd{margin:0;padding:10px 0;border-bottom:1px solid var(--line);font-family:var(--serif);line-height:1.85}
+.fields ul{margin:0;padding-left:1.15em}
+.fields li{margin:.15em 0}
+.fields p{margin:0}
+blockquote{margin:.4em 0;padding:.4em .8em;border-left:3px solid var(--line);background:var(--soft);border-radius:0 8px 8px 0}
+blockquote.refs{font-family:var(--sans);font-size:.78rem;color:var(--muted);line-height:1.55;border-left-color:var(--brand)}
+blockquote.refs .ref{margin:.1em 0;font-family:"Noto Sans SC",var(--sans)}
+blockquote.quote{font-size:.95em}
+sup.rf,sup.fn{color:var(--accent);cursor:help;font-family:var(--sans);font-size:.68em;margin-left:1px;font-weight:700}
+sup.rf:hover,sup.fn:hover,sup.rf:focus,sup.fn:focus{text-decoration:underline;outline:none}
+.tip{position:fixed;z-index:60;max-width:min(460px,calc(100vw - 24px));background:var(--ink);color:var(--bg);font-size:.8rem;line-height:1.5;padding:8px 11px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.25);pointer-events:none;display:none;font-family:"Noto Sans SC",var(--sans)}
+.pager{display:flex;justify-content:space-between;gap:10px;margin-top:18px}
+.pager a{flex:1;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;color:var(--ink)}
+.pager a:hover{background:var(--soft);text-decoration:none}
+.pager a small{display:block;color:var(--muted);font-size:.78rem}
+.pager a.nx{text-align:right}
+.prose{font-family:var(--serif);line-height:1.9}
+.prose h2,.prose h3,.prose h4{scroll-margin-top:76px}
+.prose h2{font-family:var(--serif);font-size:1.45rem;border-bottom:2px solid var(--brand);padding-bottom:.2em;margin:1.6em 0 .6em}
+.prose h3{font-size:1.2rem;margin:1.4em 0 .4em;color:var(--brand)}
+.prose h4{font-size:1.05rem;margin:1.2em 0 .3em}
+.prose ul{padding-left:1.2em}
+.prose li{margin:.25em 0}
+.tbl{overflow-x:auto;margin:.8em 0}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{border:1px solid var(--line);padding:5px 8px;text-align:left;vertical-align:top}
+th{background:var(--soft);font-weight:700;white-space:nowrap}
+.pg{color:var(--muted);font-size:.78rem;font-family:var(--sans)}
+
+/* lists */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.dl{display:flex;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:8px 10px;color:var(--ink);min-width:0}
+.dl:hover{background:var(--soft);text-decoration:none}
+.dl img{width:58px;height:46px;object-fit:contain;background:#fff;border-radius:6px;flex:none}
+.dl .ph{width:58px;height:46px;border-radius:6px;background:var(--soft);flex:none}
+.dl b{display:block;font-size:.95rem;line-height:1.35;overflow:hidden;text-overflow:ellipsis}
+.dl small{display:block;color:var(--muted);font-size:.78rem;line-height:1.35;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.res{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:8px 0}
+.res h3{margin:0;font-size:1.02rem}
+.res .snip{color:var(--muted);font-size:.88rem;margin-top:3px;font-family:var(--serif)}
+.res .snip b{color:var(--brand);font-family:var(--sans);font-weight:600;margin-right:4px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 14px}
+.filters select{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:5px 8px;font:inherit;font-size:.88rem;max-width:100%}
+.stat{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.stat a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:var(--ink)}
+.stat a:hover{background:var(--soft);text-decoration:none}
+.stat b{display:block;font-size:1.5rem;font-family:var(--serif);color:var(--brand)}
+.stat span{font-size:.85rem;color:var(--muted)}
+.bar{height:6px;background:var(--soft);border-radius:4px;margin-top:6px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--brand);border-radius:4px}
+.cmp{overflow-x:auto}
+.cmp table{min-width:640px;font-family:var(--serif)}
+.cmp th:first-child{width:7.5em;position:sticky;left:0;background:var(--soft);z-index:1}
+.cmp td ul{margin:0;padding-left:1.1em}
+.cmp thead th{white-space:normal;font-family:var(--sans)}
+.note{font-size:.82rem;color:var(--muted)}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 200px;gap:20px;align-items:center}
+.hero .cover{aspect-ratio:3/4;border-radius:10px;background:linear-gradient(160deg,#b39b77,#8a6d46);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;font-family:var(--serif);font-weight:700;font-size:1.35rem;line-height:1.4;text-align:center;box-shadow:var(--shadow)}
+.hero .cover small{font-size:.7rem;font-weight:400;opacity:.85;margin-top:14px;font-family:var(--sans)}
+.a1 tr.c td{background:var(--soft);font-weight:700}
+.a1 tr.c.l1 td{background:var(--brand);color:var(--brand-ink)}
+.a2grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:2px 14px;font-family:"Noto Sans SC",var(--sans);font-size:.9rem}
+.a2grid span{color:var(--muted);display:inline-block;min-width:3.2em;font-size:.8em}
+.zoom{position:fixed;inset:0;background:rgba(0,0,0,.75);display:none;align-items:center;justify-content:center;z-index:80;cursor:zoom-out;padding:16px}
+.zoom img{max-width:100%;max-height:100%;background:#fff;border-radius:10px}
+.empty{color:var(--muted);padding:30px 0;text-align:center}
+.backdrop{display:none}
+
+@media (max-width: 900px){
+  .wrap{grid-template-columns:1fr}
+  #menuBtn{display:inline-block}
+  .side{position:fixed;left:0;top:0;bottom:0;height:100vh;width:min(320px,86vw);z-index:50;transform:translateX(-102%);transition:transform .2s;background:var(--bg);box-shadow:var(--shadow);padding-top:16px}
+  body.nav-open .side{transform:none}
+  body.nav-open .backdrop{display:block;position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:45}
+  .main{padding:14px 16px 70px}
+  .brand small{display:none}
+  .drug-head{grid-template-columns:1fr}
+  .photos{justify-content:flex-start;max-width:none}
+  .photos img{height:110px}
+  .fields{grid-template-columns:1fr}
+  .fields>dt{border-bottom:0;padding:10px 0 0}
+  .fields>dd{padding-top:2px}
+  .hero{grid-template-columns:1fr}
+  .hero .cover{display:none}
+  .top-in{flex-wrap:wrap;padding:8px 16px;gap:8px}
+  #fsDown,#fsUp{display:none}
+  .brand b{font-size:1rem}
+  .search{order:5;flex-basis:100%}
+  h1.t{font-size:1.4rem}
+}
+@media print{.top,.side,.acts,.pager{display:none}.wrap{display:block}.card{box-shadow:none}}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <button class="ibtn" id="menuBtn" aria-label="목차 열기">☰</button>
+  <div class="brand" onclick="go('#/')"><b>중국의 대표 중성약 264選</b><small>한국한의학연구원 · 2022 · 대화형 열람판</small></div>
+  <form class="search" onsubmit="event.preventDefault();go('#/search/'+encodeURIComponent(q.value.trim()))">
+    <input id="q" type="search" placeholder="약물명·한자·약재·증상·질환 검색 (예: 감기, 黃芪, 단삼)" autocomplete="off" aria-label="검색">
+  </form>
+  <button class="ibtn" onclick="go('#/compare')" title="비교함">비교<span class="cmpcount" id="cmpN">0</span></button>
+  <button class="ibtn" id="fsDown" title="글자 작게">A−</button>
+  <button class="ibtn" id="fsUp" title="글자 크게">A+</button>
+  <button class="ibtn" id="themeBtn" title="밝게/어둡게">◐</button>
+  <!--__COUNTER__-->
+</div></header>
+<div class="backdrop" onclick="document.body.classList.remove('nav-open')"></div>
+<div class="wrap">
+  <aside class="side" id="side">
+    <div class="tabs"><button data-t="toc" class="on">목차</button><button data-t="herb">약재</button><button data-t="az">가나다</button></div>
+    <div id="sideBody" class="nav"></div>
+  </aside>
+  <main class="main" id="main" tabindex="-1"></main>
+</div>
+<div class="tip" id="tip"></div>
+<div class="zoom" id="zoom" onclick="this.style.display='none'"><img alt=""></div>
+<script>
+const D = /*__DATA__*/null;
+const IMG = "__IMGBASE__";
+const FIELD_ORDER = ["제형","처방유형","규격","조성","기능 및 주치","처방해설","임상응용","약리독리","약리작용","불량반응","금기","주의사항","용법용량","개발사","제조사","연구동향"];
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem("zcy264:"+k); return v===null? d : JSON.parse(v);}catch(e){ return d; } },
+  set(k, v){ try{ localStorage.setItem("zcy264:"+k, JSON.stringify(v)); }catch(e){} }
+};
+const drugs = D.drugs;
+const real = drugs.map((d,i)=>[d,i]).filter(([d])=>d.f.length);
+const byN = {}; real.forEach(([d,i])=>{ byN[d.n]=i; });
+const herbMap = new Map(D.herbs.map(([h,ix])=>[h,ix]));
+const secs = [...new Set(real.map(([d])=>d.sec))];
+let cmp = store.get("cmp", []).filter(i=>drugs[i]);
+function go(h){ if(location.hash===h) route(); else location.hash=h; }
+function dlink(i){ const d=drugs[i]; return `#/d/${d.n}`; }
+function nm(d){ return `${esc(d.ko)}<span class="hz">${esc(d.hz)}</span>`; }
+function thumb(d){ return d.img&&d.img.length? `<img loading="lazy" src="${IMG}${d.img[0]}" alt="">` : `<span class="ph"></span>`; }
+function card(i, extra){ const d=drugs[i]; return `<a class="dl" href="${dlink(i)}">${thumb(d)}<div style="min-width:0"><b>(${d.n}) ${esc(d.ko)} <span style="color:var(--brand);font-weight:500">${esc(d.hz)}</span></b><small>${esc(extra||[d.grp,d.sub].filter(Boolean).map(short).join(" › "))}</small></div></a>`; }
+function short(t){ return String(t).replace(/^[\d.]+\s*|^\d+\)\s*/,""); }
+
+/* ── 사이드바 ── */
+let sideTab = "toc";
+function sideToc(){
+  const cur = location.hash;
+  let h = `<div class="grp">책 소개</div><a href="#/">처음 화면</a>`;
+  D.front.forEach(f=>{ h += `<a href="#/front/${f.id}">${esc(f.t)}</a>`; });
+  h += `<div class="grp">01 중국의 중성약 개요</div>`;
+  let open = false;
+  D.ch1.toc.forEach(([lv,id,t])=>{
+    if(lv<=2){ h += `<a href="#/ch1/${id}" style="font-weight:600">${esc(t)}</a>`; }
+    else { h += `<a href="#/ch1/${id}" style="padding-left:2.4em;font-size:.86em">${esc(t)}</a>`; }
+  });
+  h += `<div class="grp">02 중국의 대표 중성약 (264종)</div>`;
+  const nodeHtml = (n, lv) => {
+    const items = n.d.map(i=>{ const d=drugs[i]; return `<a href="${dlink(i)}" data-i="${i}"><span class="n">${d.n}</span>${esc(d.ko)}${d.f.length?"":" <small class='pg'>→참조</small>"}</a>`; }).join("");
+    const kids = n.c.map(c=>nodeHtml(c, lv+1)).join("");
+    return `<details class="lv${lv}"><summary>${esc(n.t)}</summary>${items}${kids}</details>`;
+  };
+  h += D.tree.map(n=>nodeHtml(n,1)).join("");
+  h += `<div class="grp">부록</div><a href="#/a1">부록 1 · 국가기본의료보험 약품목록(2020) 중성약</a><a href="#/a2">부록 2 · 중국약전(2020) 수록 중성약 1607종</a>`;
+  h += `<div class="grp">찾아보기 도구</div><a href="#/search/">검색·필터</a><a href="#/herbs">약재(조성)로 찾기</a><a href="#/compare">비교함</a>`;
+  return h;
+}
+function sideHerb(){
+  return `<input class="filt" id="hf" placeholder="약재 이름 거르기" aria-label="약재 거르기"><div id="hl"></div>`;
+}
+function sideAz(){
+  const list = real.slice().sort((a,b)=>a[0].ko.localeCompare(b[0].ko,"ko"));
+  return `<input class="filt" id="af" placeholder="약물 이름 거르기" aria-label="약물 거르기"><div id="al">${list.map(([d,i])=>`<a href="${dlink(i)}" data-i="${i}" data-s="${esc(d.ko+d.hz)}"><span class="n">${d.n}</span>${esc(d.ko)}</a>`).join("")}</div>`;
+}
+function renderSide(){
+  document.querySelectorAll(".tabs button").forEach(b=>b.classList.toggle("on", b.dataset.t===sideTab));
+  const sb = $("#sideBody");
+  sb.innerHTML = sideTab==="toc"? sideToc() : sideTab==="herb"? sideHerb() : sideAz();
+  if(sideTab==="herb"){
+    const draw = f => { $("#hl").innerHTML = D.herbs.filter(([h])=>!f||h.includes(f)).slice(0,400).map(([h,ix])=>`<a class="herbli" href="#/herb/${encodeURIComponent(h)}">${esc(h)}<span>${ix.length}</span></a>`).join(""); };
+    draw(""); $("#hf").addEventListener("input", e=>draw(e.target.value.trim()));
+  }
+  if(sideTab==="az"){
+    $("#af").addEventListener("input", e=>{ const f=e.target.value.trim(); document.querySelectorAll("#al a").forEach(a=>{ a.style.display = !f||a.dataset.s.includes(f)? "" : "none"; }); });
+  }
+  markCurrent();
+}
+function markCurrent(){
+  const m = location.hash.match(/^#\/d\/(\d+)/);
+  document.querySelectorAll("#sideBody a.cur").forEach(a=>a.classList.remove("cur"));
+  if(!m) return;
+  const i = byN[+m[1]];
+  document.querySelectorAll(`#sideBody a[data-i="${i}"]`).forEach(a=>{
+    a.classList.add("cur");
+    let p = a.parentElement; while(p && p.id!=="sideBody"){ if(p.tagName==="DETAILS") p.open = true; p = p.parentElement; }
+    const r = a.getBoundingClientRect(), s = $("#side").getBoundingClientRect();
+    if(r.top < s.top || r.bottom > s.bottom) a.scrollIntoView({block:"center"});
+  });
+}
+document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click", ()=>{ sideTab=b.dataset.t; store.set("tab", sideTab); renderSide(); }));
+
+/* ── 화면 ── */
+function viewHome(){
+  const total = real.length;
+  const bySec = secs.map(s=>[s, real.filter(([d])=>d.sec===s).length]);
+  const max = Math.max(...bySec.map(x=>x[1]));
+  const rxs = D.rx.map(([k,v])=>`<a href="#/search/?rx=${encodeURIComponent(k)}"><b>${v}</b><span>${esc(k)}</span></a>`).join("");
+  return `<div class="card hero"><div>
+    <div class="crumb">한국한의학연구원 · 2022년 4월 · 기획 구남평 · 조사·분석·집필 이승우, 구남평 · ISBN 978-89-5970-509-2</div>
+    <h1 class="t">중국의 대표 중성약 264選</h1>
+    <p class="prose" style="margin:.4em 0">2018년판 《국가기본약물목록》 수재 중성약 268종 가운데 주사제 4종을 뺀 <b>264종</b>을 7개 분과·효능분류로 나누어, 약마다 제형·처방유형·규격·조성·기능 및 주치·처방해설·임상응용·약리독리·불량반응·금기·주의사항·용법용량·제조사·연구동향을 정리한 책입니다. 앞부분(1장)은 중국 중성약의 법규·정책·고대경전명방·중약품종보호·국가기본약물 제도를 다룹니다.</p>
+    <div class="acts"><a class="ibtn" href="#/d/1">첫 약물부터 읽기</a><a class="ibtn" href="#/ch1/${D.ch1.toc.length?D.ch1.toc[0][1]:""}">1장 개요</a><a class="ibtn" href="#/herbs">약재로 찾기</a><a class="ibtn" href="#/search/">검색·필터</a></div>
+  </div><div class="cover">중국의 대표<br>중성약 264選<small>한국한의학연구원</small></div></div>
+  <div class="card"><h2 style="margin:0 0 10px;font-size:1.1rem">분과별 약물</h2><div class="stat">${bySec.map(([s,c])=>`<a href="#/search/?sec=${encodeURIComponent(s)}"><b>${c}</b><span>${esc(s)}</span><div class="bar"><i style="width:${(c/max*100).toFixed(0)}%"></i></div></a>`).join("")}</div>
+  <h2 style="margin:18px 0 10px;font-size:1.1rem">처방유형</h2><div class="stat">${rxs}<a href="#/herbs"><b>${D.herbs.length}</b><span>조성 약재(가공 구분 생략)</span></a><a href="#/a2"><b>${D.a2.length}</b><span>부록2 중국약전 수록 중성약</span></a></div></div>
+  <div class="card"><h2 style="margin:0 0 6px;font-size:1.1rem">이 열람판에 대해</h2>
+  <ul class="note" style="margin:0;padding-left:1.2em">
+   <li>원서 PDF는 글자가 윤곽선으로 바뀌어 있어 쪽마다 그림으로 읽어 옮겨 적었습니다(Claude 비전 OCR). 모든 약물·장절에 원서 쪽 번호를 달았습니다. 인용할 때는 원서와 대조하십시오.</li>
+   <li>본문 위첨자 <sup class="rf">[1]</sup>은 그 항목 아래 참고문헌, <sup class="fn">1)</sup>은 그 쪽 아래 각주입니다. 마우스를 올리거나 누르면 내용이 보입니다.</li>
+   <li>약재 목록은 〈조성〉 항목을 쉼표로 나눠 만든 것으로, 焦·炒·制·醋·炙 같은 가공 표기는 떼고 묶었습니다.</li>
+  </ul></div>`;
+}
+function viewFront(id){
+  const f = D.front.find(x=>x.id===id) || D.front[0];
+  return `<div class="crumb"><a href="#/">처음</a> › 책 소개 · 원서 ${f.page}쪽</div><h1 class="t">${esc(f.t)}</h1><div class="card prose">${f.html}</div>`;
+}
+function viewCh1(id){
+  setTimeout(()=>{ const el = id && document.getElementById(id); if(el) el.scrollIntoView({block:"start"}); else window.scrollTo(0,0); }, 0);
+  return `<div class="crumb"><a href="#/">처음</a> › 01장 · 원서 22~37쪽</div><h1 class="t">01 중국의 중성약 개요</h1><div class="card prose">${D.ch1.html}</div>`;
+}
+function fieldOf(d, name){ const f = d.f.find(x=>x[0]===name); return f? f[1] : ""; }
+function viewDrug(n){
+  const i = byN[n]; if(i===undefined) return `<div class="empty">(${n})번 약물이 없습니다.</div>`;
+  const d = drugs[i];
+  const k = real.findIndex(([,j])=>j===i);
+  const prev = real[k-1], next = real[k+1];
+  const xrefs = drugs.map((x,j)=>[x,j]).filter(([x])=>!x.f.length && x.n===d.n);
+  const inC = cmp.includes(i);
+  const facts = [];
+  if(d.form.length) facts.push(`<span><span class="k">제형</span>${d.form.map(f=>`<a class="chip" href="#/search/?form=${encodeURIComponent(f)}">${esc(f)}</a>`).join("")}</span>`);
+  if(d.rx.length) facts.push(`<span><span class="k">처방유형</span>${d.rx.map(r=>`<span class="chip rx">${esc(r)}</span>`).join("")}</span>`);
+  const herbs = d.herbs.length? `<div class="facts"><span><span class="k">조성 약재</span>${d.herbs.map(h=>`<a class="chip" href="#/herb/${encodeURIComponent(h)}" title="이 약재가 든 약물 ${herbMap.has(h)?herbMap.get(h).length:0}종">${esc(h)}</a>`).join("")}</span></div>` : "";
+  const fl = d.f.map(([name,h])=>`<dt>${esc(name)}</dt><dd>${h}</dd>`).join("");
+  const crumb = [d.sec,d.grp,d.sub].filter(Boolean).map(t=>`<a href="#/search/?path=${encodeURIComponent(t)}">${esc(t)}</a>`).join(" › ");
+  const xr = xrefs.length? `<p class="note">이 약물은 ${xrefs.map(([x])=>esc([x.grp,x.sub].filter(Boolean).join(" › "))).join(", ")}에도 실려 있습니다(원서는 이 쪽을 참조하도록 함).</p>` : "";
+  return `<div class="crumb">${crumb}</div>
+  <div class="card"><div class="drug-head"><div>
+    <h1 class="t"><span class="no">(${d.n})</span>${nm(d)}</h1>
+    <div class="sub">원서 ${d.pgs.length>1? d.pgs[0]+"~"+d.pgs[d.pgs.length-1] : d.pg}쪽</div>
+    <div class="facts">${facts.join("")}</div>${herbs}${xr}
+    <div class="acts"><button class="ibtn ${inC?"on":""}" id="cmpBtn">${inC?"비교함에서 빼기":"비교함에 담기"}</button><button class="ibtn" id="copyBtn">이름·출처 복사</button></div>
+  </div>${d.img.length? `<div class="photos">${d.img.map(f=>`<img src="${IMG}${f}" alt="${esc(d.hz)} 제품 사진" loading="lazy">`).join("")}</div>`:""}</div></div>
+  ${d.pre?`<div class="card note">${d.pre}</div>`:""}
+  <div class="card"><dl class="fields">${fl}</dl></div>
+  <div class="pager">${prev?`<a href="${dlink(prev[1])}"><small>← 이전</small>(${prev[0].n}) ${esc(prev[0].ko)}</a>`:"<span></span>"}${next?`<a class="nx" href="${dlink(next[1])}"><small>다음 →</small>(${next[0].n}) ${esc(next[0].ko)}</a>`:"<span></span>"}</div>`;
+}
+function afterDrug(n){
+  const i = byN[n]; if(i===undefined) return;
+  const b = $("#cmpBtn"); if(b) b.onclick = ()=>{ toggleCmp(i); route(); };
+  const c = $("#copyBtn"); if(c) c.onclick = ()=>{
+    const d = drugs[i]; const t = `${d.ko}${d.hz} — 한국한의학연구원, 『중국의 대표 중성약 264選』(2022), ${d.pg}쪽`;
+    try{ navigator.clipboard.writeText(t).then(()=>{ c.textContent="복사했습니다"; setTimeout(()=>c.textContent="이름·출처 복사",1500); }); }catch(e){}
+  };
+  document.querySelectorAll(".photos img").forEach(im=>im.onclick=()=>{ const z=$("#zoom"); z.querySelector("img").src=im.src; z.style.display="flex"; });
+}
+function toggleCmp(i){
+  if(cmp.includes(i)) cmp = cmp.filter(x=>x!==i); else { cmp.push(i); if(cmp.length>4) cmp.shift(); }
+  store.set("cmp", cmp); $("#cmpN").textContent = cmp.length;
+}
+
+/* 검색 */
+const SCOPES = [["","전체"],["name","이름"],["조성","조성"],["기능 및 주치","기능 및 주치"],["임상응용","임상응용"],["처방해설","처방해설"],["금기주의","금기·주의사항·불량반응"],["연구동향","연구동향"]];
+function strip(h){ return h.replace(/<sup[^>]*>.*?<\/sup>/g,"").replace(/<blockquote[^>]*>.*?<\/blockquote>/g," ").replace(/<[^>]+>/g," ").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/\s+/g," ").trim(); }
+const plainCache = new Map();
+function texts(i){
+  if(plainCache.has(i)) return plainCache.get(i);
+  const d = drugs[i]; const o = {name: d.ko+" "+d.hz};
+  d.f.forEach(([n,h])=>{ o[n] = strip(h); });
+  plainCache.set(i,o); return o;
+}
+function scopeText(i, sc){
+  const t = texts(i);
+  if(!sc) return Object.values(t).join(" ");
+  if(sc==="금기주의") return [t["금기"],t["주의사항"],t["불량반응"]].filter(Boolean).join(" ");
+  return t[sc]||"";
+}
+function snippet(i, terms, sc){
+  const t = texts(i);
+  const keys = sc? (sc==="금기주의"? ["금기","주의사항","불량반응"] : [sc]) : Object.keys(t);
+  for(const k of keys){
+    const s = t[k]; if(!s) continue;
+    const pos = s.indexOf(terms[0]); if(pos<0) continue;
+    const a = Math.max(0,pos-40), b = Math.min(s.length,pos+90);
+    let x = esc((a?"…":"")+s.slice(a,b)+(b<s.length?"…":""));
+    terms.forEach(w=>{ if(w) x = x.split(esc(w)).join(`<mark>${esc(w)}</mark>`); });
+    return `<b>${k==="name"?"이름":esc(k)}</b>${x}`;
+  }
+  return "";
+}
+function viewSearch(qs){
+  const [qraw, query] = qs.split("?");
+  const p = new URLSearchParams(query||"");
+  const qv = decodeURIComponent(qraw||"");
+  $("#q").value = qv;
+  const sec = p.get("sec")||"", rx = p.get("rx")||"", form = p.get("form")||"", sc = p.get("sc")||"", path = p.get("path")||"";
+  const terms = qv.split(/\s+/).filter(Boolean);
+  let rows = real.filter(([d,i])=>{
+    if(sec && d.sec!==sec) return false;
+    if(rx && !d.rx.includes(rx)) return false;
+    if(form && !d.form.includes(form)) return false;
+    if(path && ![d.sec,d.grp,d.sub].includes(path)) return false;
+    if(terms.length){ const t = scopeText(i, sc); return terms.every(w=>t.includes(w)); }
+    return true;
+  });
+  const opt = (arr, v) => arr.map(([k,l])=>`<option value="${esc(k)}" ${k===v?"selected":""}>${esc(l)}</option>`).join("");
+  const forms = D.forms.filter(([,c])=>c>=2).map(([f,c])=>[f,`${f} (${c})`]);
+  const filt = `<div class="filters">
+    <select id="fsec" aria-label="분과">${opt([["","분과 전체"],...secs.map(s=>[s,s])], sec)}</select>
+    <select id="frx" aria-label="처방유형">${opt([["","처방유형 전체"],...D.rx.map(([k])=>[k,k])], rx)}</select>
+    <select id="fform" aria-label="제형">${opt([["","제형 전체"],...forms], form)}</select>
+    <select id="fsc" aria-label="찾을 항목">${opt(SCOPES, sc)}</select>
+    ${path?`<span class="chip">${esc(path)} <a href="#" id="clrPath">✕</a></span>`:""}
+    <span class="note">${rows.length}종</span></div>`;
+  let body;
+  if(terms.length){
+    body = rows.map(([d,i])=>`<div class="res"><h3><a href="${dlink(i)}">(${d.n}) ${esc(d.ko)} <span style="color:var(--brand)">${esc(d.hz)}</span></a> <span class="pg">${esc(short(d.grp))} · ${d.pg}쪽</span></h3><div class="snip">${snippet(i,terms,sc)}</div></div>`).join("");
+    const a1 = D.a1.filter(r=>r.k==="r" && terms.every(w=>r.t.includes(w))).length;
+    const a2 = D.a2.filter(([,t])=>terms.every(w=>t.includes(w))).length;
+    if(a1||a2) body += `<p class="note">부록에서도 찾았습니다: ${a1?`<a href="#/a1?f=${encodeURIComponent(qv)}">부록 1에서 ${a1}건</a>`:""} ${a2?`<a href="#/a2?f=${encodeURIComponent(qv)}">부록 2에서 ${a2}건</a>`:""}</p>`;
+  } else {
+    body = `<div class="grid">${rows.map(([d,i])=>card(i)).join("")}</div>`;
+  }
+  return `<div class="crumb"><a href="#/">처음</a> › 검색·필터</div><h1 class="t">${terms.length? `“${esc(qv)}” 검색 결과` : "약물 찾아보기"}</h1>${filt}${body || `<div class="empty">맞는 약물이 없습니다. 다른 낱말이나 한자로 찾아보십시오.</div>`}`;
+}
+function afterSearch(qs){
+  const [qraw] = qs.split("?");
+  const upd = ()=>{
+    const p = new URLSearchParams();
+    [["sec","#fsec"],["rx","#frx"],["form","#fform"],["sc","#fsc"]].forEach(([k,s])=>{ const v=$(s).value; if(v) p.set(k,v); });
+    const old = new URLSearchParams((qs.split("?")[1])||""); if(old.get("path")) p.set("path", old.get("path"));
+    go(`#/search/${qraw||""}${p.toString()?"?"+p.toString():""}`);
+  };
+  ["#fsec","#frx","#fform","#fsc"].forEach(s=>{ const el=$(s); if(el) el.onchange=upd; });
+  const c = $("#clrPath"); if(c) c.onclick = e=>{ e.preventDefault(); const p=new URLSearchParams((qs.split("?")[1])||""); p.delete("path"); go(`#/search/${qraw||""}${p.toString()?"?"+p.toString():""}`); };
+}
+function viewHerbs(){
+  return `<div class="crumb"><a href="#/">처음</a> › 약재로 찾기</div><h1 class="t">약재(조성)로 찾기</h1>
+  <p class="note">〈조성〉 항목에 나오는 약재 ${D.herbs.length}가지. 숫자는 그 약재가 든 약물 수입니다. 둘 이상 고르면 모두 든 약물만 보입니다.</p>
+  <div class="filters"><input class="filt" id="hq" placeholder="약재 이름" style="max-width:260px;border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--panel);color:var(--ink);font:inherit"><span id="hsel"></span></div>
+  <div id="hgrid" style="line-height:2.1"></div><div id="hres" style="margin-top:14px"></div>`;
+}
+let herbSel = [];
+function afterHerbs(){
+  const draw = ()=>{
+    const f = $("#hq").value.trim();
+    $("#hgrid").innerHTML = D.herbs.filter(([h])=>!f||h.includes(f)).slice(0,f?300:160).map(([h,ix])=>`<button class="chip" data-h="${esc(h)}" style="${herbSel.includes(h)?"background:var(--brand);color:var(--brand-ink)":""}">${esc(h)} <small>${ix.length}</small></button>`).join("") + (f?"":` <span class="note">… 위 칸에 이름을 넣으면 나머지도 보입니다</span>`);
+    document.querySelectorAll("#hgrid button").forEach(b=>b.onclick=()=>{ const h=b.dataset.h; herbSel = herbSel.includes(h)? herbSel.filter(x=>x!==h) : [...herbSel,h]; draw(); });
+    $("#hsel").innerHTML = herbSel.map(h=>`<span class="chip" style="background:var(--brand);color:var(--brand-ink)">${esc(h)}</span>`).join("") + (herbSel.length?` <a href="#" id="hclr">모두 풀기</a>`:"");
+    const c = $("#hclr"); if(c) c.onclick = e=>{ e.preventDefault(); herbSel=[]; draw(); };
+    if(herbSel.length){
+      let set = null; herbSel.forEach(h=>{ const s = new Set(herbMap.get(h)||[]); set = set? new Set([...set].filter(x=>s.has(x))) : s; });
+      const ix = [...set];
+      $("#hres").innerHTML = `<h2 style="font-size:1.05rem">${herbSel.map(esc).join(" + ")} — ${ix.length}종</h2><div class="grid">${ix.map(i=>card(i, drugs[i].herbs.join(", "))).join("")}</div>`;
+    } else $("#hres").innerHTML = "";
+  };
+  $("#hq").addEventListener("input", draw); draw();
+}
+function viewHerb(h){
+  const ix = herbMap.get(h)||[];
+  return `<div class="crumb"><a href="#/">처음</a> › <a href="#/herbs">약재로 찾기</a></div><h1 class="t">${esc(h)} <span class="sub">${ix.length}종의 조성에 들어 있음</span></h1><div class="grid">${ix.map(i=>card(i, drugs[i].herbs.join(", "))).join("")}</div>`;
+}
+function viewCompare(){
+  if(!cmp.length) return `<div class="crumb"><a href="#/">처음</a> › 비교함</div><h1 class="t">비교함</h1><div class="empty">약물 화면의 ‘비교함에 담기’로 최대 4종까지 담아 항목별로 나란히 볼 수 있습니다.</div>`;
+  const names = FIELD_ORDER.filter(f=>cmp.some(i=>drugs[i].f.some(x=>x[0]===f)));
+  const head = `<tr><th>항목</th>${cmp.map(i=>{ const d=drugs[i]; return `<th><a href="${dlink(i)}">(${d.n}) ${esc(d.ko)}</a><br><span style="color:var(--brand);font-weight:500">${esc(d.hz)}</span> <button class="ibtn" data-rm="${i}" style="padding:0 6px;font-size:.75rem">빼기</button></th>`; }).join("")}</tr>`;
+  const rows = names.map(f=>`<tr><th>${esc(f)}</th>${cmp.map(i=>`<td>${fieldOf(drugs[i],f)||"<span class='note'>—</span>"}</td>`).join("")}</tr>`).join("");
+  const common = cmp.length>1? cmp.map(i=>new Set(drugs[i].herbs)).reduce((a,b)=>new Set([...a].filter(x=>b.has(x)))) : new Set();
+  return `<div class="crumb"><a href="#/">처음</a> › 비교함</div><h1 class="t">비교함 <span class="sub">${cmp.length}종</span></h1>
+  ${common.size?`<p>공통 약재: ${[...common].map(h=>`<a class="chip" href="#/herb/${encodeURIComponent(h)}">${esc(h)}</a>`).join("")}</p>`:""}
+  <div class="card cmp"><table><thead>${head}</thead><tbody>${rows}</tbody></table></div>`;
+}
+function afterCompare(){ document.querySelectorAll("[data-rm]").forEach(b=>b.onclick=()=>{ toggleCmp(+b.dataset.rm); route(); }); }
+function viewA1(q){
+  const f = new URLSearchParams(q||"").get("f")||"";
+  return `<div class="crumb"><a href="#/">처음</a> › 부록 1 · 원서 506~543쪽</div><h1 class="t">부록 1 <span class="sub">《국가기본의료보험, 공상보험과 생육보험 약품목록(2020년)》(중성약)</span></h1>
+  <div class="filters"><input id="a1f" value="${esc(f)}" placeholder="약품명·분류 거르기 (간체자: 颗粒, 胶囊 …)" style="flex:1;min-width:200px;border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--panel);color:var(--ink);font:inherit"><span class="note" id="a1n"></span></div>
+  <div class="card tbl a1"><table><thead><tr><th>분류</th><th>등급</th><th>번호</th><th>약품명칭</th></tr></thead><tbody id="a1b"></tbody></table></div>`;
+}
+function afterA1(){
+  const draw = ()=>{
+    const f = $("#a1f").value.trim(); let n = 0; const out = []; let pend = [];
+    D.a1.forEach(r=>{
+      if(r.k==="c"){ if(!f) out.push(`<tr class="c l${r.lv}"><td colspan="4">${esc(r.code)} ${esc(r.t)}</td></tr>`); else pend = pend.filter(x=>x.lv<r.lv).concat([r]); return; }
+      if(f && !r.t.includes(f)) return;
+      if(f && pend.length){ pend.forEach(c=>out.push(`<tr class="c l${c.lv}"><td colspan="4">${esc(c.code)} ${esc(c.t)}</td></tr>`)); pend = []; }
+      n++; out.push(`<tr><td></td><td>${esc(r.g)}</td><td>${esc(r.no)}</td><td style="font-family:'Noto Sans SC',var(--sans)">${f? esc(r.t).split(esc(f)).join(`<mark>${esc(f)}</mark>`) : esc(r.t)}</td></tr>`);
+    });
+    $("#a1b").innerHTML = out.join(""); $("#a1n").textContent = `${n}건`;
+  };
+  $("#a1f").addEventListener("input", draw); draw();
+}
+function viewA2(q){
+  const f = new URLSearchParams(q||"").get("f")||"";
+  return `<div class="crumb"><a href="#/">처음</a> › 부록 2 · 원서 544~563쪽</div><h1 class="t">부록 2 <span class="sub">《중국약전(2020년판)》 수록 중성약 목록(${D.a2.length}종)</span></h1>
+  <div class="filters"><input id="a2f" value="${esc(f)}" placeholder="약명 거르기 (간체자)" style="flex:1;min-width:200px;border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--panel);color:var(--ink);font:inherit"><span class="note" id="a2n"></span></div>
+  <div class="card a2grid" id="a2b"></div>`;
+}
+function afterA2(){
+  const draw = ()=>{ const f=$("#a2f").value.trim(); const r = D.a2.filter(([,t])=>!f||t.includes(f)); $("#a2b").innerHTML = r.map(([n,t])=>`<div><span>${n}</span>${f? esc(t).split(esc(f)).join(`<mark>${esc(f)}</mark>`) : esc(t)}</div>`).join(""); $("#a2n").textContent=`${r.length}종`; };
+  $("#a2f").addEventListener("input", draw); draw();
+}
+
+/* ── 라우터 ── */
+function route(){
+  const h = location.hash || "#/";
+  const m = $("#main"); let after = null;
+  let r;
+  if((r = h.match(/^#\/d\/(\d+)/))){ m.innerHTML = viewDrug(+r[1]); after = ()=>afterDrug(+r[1]); document.title = (()=>{ const d=drugs[byN[+r[1]]]; return d? `${d.ko}${d.hz} — 중국의 대표 중성약 264選` : document.title; })(); }
+  else if((r = h.match(/^#\/front\/(\w+)/))){ m.innerHTML = viewFront(r[1]); }
+  else if((r = h.match(/^#\/ch1\/?([\w-]*)/))){ m.innerHTML = viewCh1(r[1]); }
+  else if((r = h.match(/^#\/search\/?(.*)$/))){ m.innerHTML = viewSearch(r[1]); after = ()=>afterSearch(r[1]); }
+  else if(h.startsWith("#/herbs")){ m.innerHTML = viewHerbs(); after = afterHerbs; }
+  else if((r = h.match(/^#\/herb\/(.+)$/))){ m.innerHTML = viewHerb(decodeURIComponent(r[1])); }
+  else if(h.startsWith("#/compare")){ m.innerHTML = viewCompare(); after = afterCompare; }
+  else if((r = h.match(/^#\/a1\??(.*)$/))){ m.innerHTML = viewA1(r[1]); after = afterA1; }
+  else if((r = h.match(/^#\/a2\??(.*)$/))){ m.innerHTML = viewA2(r[1]); after = afterA2; }
+  else { m.innerHTML = viewHome(); document.title = "중국의 대표 중성약 264選 — 한국한의학연구원(2022) 대화형 열람판"; }
+  if(!h.startsWith("#/search")) $("#q").value = "";
+  if(!h.startsWith("#/ch1")) window.scrollTo(0,0);
+  if(after) after();
+  markCurrent();
+  document.body.classList.remove("nav-open");
+}
+window.addEventListener("hashchange", route);
+
+/* 각주·참고문헌 풍선 */
+const tip = $("#tip");
+function showTip(el){
+  const t = el.dataset.t; if(!t) return;
+  tip.textContent = t; tip.style.display = "block";
+  const r = el.getBoundingClientRect(); const w = tip.offsetWidth, hgt = tip.offsetHeight;
+  let x = Math.min(Math.max(8, r.left + r.width/2 - w/2), innerWidth - w - 8);
+  let y = r.top - hgt - 8; if(y < 8) y = r.bottom + 8;
+  tip.style.left = x+"px"; tip.style.top = y+"px";
+}
+document.addEventListener("mouseover", e=>{ const s = e.target.closest("sup[data-t]"); if(s) showTip(s); });
+document.addEventListener("mouseout", e=>{ if(e.target.closest("sup[data-t]")) tip.style.display="none"; });
+document.addEventListener("focusin", e=>{ const s = e.target.closest("sup[data-t]"); if(s) showTip(s); });
+document.addEventListener("focusout", ()=>{ tip.style.display="none"; });
+document.addEventListener("click", e=>{ const s = e.target.closest("sup[data-t]"); if(s){ showTip(s); } else tip.style.display="none"; });
+window.addEventListener("scroll", ()=>{ tip.style.display="none"; }, {passive:true});
+
+/* 글자 크기·테마 */
+let fs = store.get("fs", 16);
+const applyFs = ()=>document.documentElement.style.setProperty("--fs", fs+"px");
+$("#fsUp").onclick = ()=>{ fs = Math.min(22, fs+1); store.set("fs",fs); applyFs(); };
+$("#fsDown").onclick = ()=>{ fs = Math.max(13, fs-1); store.set("fs",fs); applyFs(); };
+applyFs();
+const th = store.get("theme", "");
+if(th) document.documentElement.dataset.theme = th;
+$("#themeBtn").onclick = ()=>{
+  const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches? "dark" : "light");
+  const nx = cur==="dark"? "light" : "dark"; document.documentElement.dataset.theme = nx; store.set("theme", nx);
+};
+$("#menuBtn").onclick = ()=>document.body.classList.toggle("nav-open");
+$("#cmpN").textContent = cmp.length;
+sideTab = store.get("tab","toc"); if(!["toc","herb","az"].includes(sideTab)) sideTab="toc";
+renderSide();
+route();
+</script>
+</body>
+</html>

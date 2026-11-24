@@ -174,6 +174,13 @@
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/changyong-shuxue.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/changyong-shuxue/))*
 
+### 23. 중국의 대표 중성약 264選 (中國의 代表 中成藥 264選)
+* **발행:** 한국한의학연구원(KIOM), 2022년 4월 · **기획:** 구남평 · **조사·분석·집필:** 이승우, 구남평 · ISBN 978-89-5970-509-2
+* **설명:** 2018년판 중국 《국가기본약물목록》 수재 중성약 264종(주사제 4종 제외)을 7개 분과·효능분류로 나눠 약마다 제형·처방유형·규격·조성·기능 및 주치·처방해설·임상응용·약리독리·불량반응·금기·주의사항·용법용량·제조사·연구동향을 정리한 책의 대화형 열람판. 약물·증상 전문 검색, 분과·처방유형·제형 필터, 약재(조성)로 찾기(교집합), 최대 4종 항목별 비교, 제품 사진, 원서 쪽 번호, 참고문헌·각주 풍선, 1장 중국 중성약 제도 개관, 부록 1(국가기본의료보험 약품목록 2020)·부록 2(중국약전 2020 수록 1607종) 거르기 포함. 원서 PDF가 윤곽선 글꼴이라 Claude 비전 OCR(claude-opus-5-5)로 옮겼으며 195쪽은 요약으로만 적혀 있음.
+* **👉 [열람판 열기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/zhongchengyao-264.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/zhongchengyao-264/))*
+* *(원본 생성: `중국의대표중성약264선/scripts/build_zcy264.py --web` — 쪽별 OCR은 `ocr_pages/`, 제품 사진은 `images/zcy264/`)*
+
 ---
 
 ## ✨ 웹 전자책 공통 주요 기능
@@ -246,8 +253,10 @@
 | **`황제내경집해/`** | `황제내경집해 소문_원문열람...html` / `황제내경집해 영추_원문열람...html` | 용백견·용식소 『황제내경집해』 소문·영추 원문 열람판 |
 | **`상용수혈임상발휘/`** | `상용수혈임상발휘_원문_OCR.html` / `상용수혈임상발휘_원문_OCR.md` | 이세진 『常用腧穴临床发挥』 중국어 원문 OCR 열람판·전문 마크다운 |
 | | `상용수혈임상발휘_OCR_검수목록.md` | OCR 사전 대조 교정 목록 |
+| **`중국의대표중성약264선/`** | `중국의대표중성약264선.html` / `중국의대표중성약264선_OCR_전문.md` | 한국한의학연구원 『중국의 대표 중성약 264選』 대화형 열람판·OCR 전문 마크다운 |
+| | `ocr_pages/` · `scripts/` | 쪽별 OCR 결과(568쪽)·OCR 배치·빌더 스크립트 |
 | **루트 웹 배포 인프라** | `index.html` | 도서관 통합 메인 포털 홈 |
-| | `[slug].html` / `[slug]/index.html` | 22개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
+| | `[slug].html` / `[slug]/index.html` | 23개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
 | | `images/` | 중국침구사도감 고해상도 유물 도판(`fig`, `figzoom`) 공통 자산 |
 | | `deploy_to_gdrive.py` / `.bat` | 로컬 작업공간 ➔ 구글 드라이브 동기화 배포 도구 |
 | | `README.md` | 도서관 종합 설명서 |
