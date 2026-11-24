@@ -167,6 +167,13 @@
 * *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/baemunhong-donguibogam/))*
 * *(원본 생성: `donguibogam-disease-analysis/배문홍/scripts/build_simulator.py --web` — 강의록·대조 DB는 Drive·로컬 전용)*
 
+### 22. 상용수혈임상발휘 (常用腧穴臨床發揮 / 常用腧穴临床发挥)
+* **저자:** 이세진(李世珍)
+* **원출판:** 인민위생출판사(人民衛生出版社), 1985년 11월 제1판(1989년 제2쇄)
+* **설명:** 『침구임상변증논치』의 저자 이세진이 4대 가전 침구 경험과 부친 이심전(李心田)의 『침약회통』을 바탕으로, 14경맥·경외기혈의 상용혈 86혈마다 개설·치료범위·功能·주치·임상응용·병안·腧穴功能 감별·腧穴配伍·토론·歌括의 10항목으로 腧穴功能(穴若藥效)과 以針代藥 변증취혈을 정리한 16장 89절 원서의 중국어 원문 OCR 열람판 (OCR 검수: 사전 대조 교정 목록 포함).
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://wonkwang-univ-college-korean-med.github.io/classics/changyong-shuxue.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://wonkwang-univ-college-korean-med.github.io/classics/changyong-shuxue/))*
+
 ---
 
 ## ✨ 웹 전자책 공통 주요 기능
@@ -237,8 +244,10 @@
 | | `침구임상변증논치_번역_통합.md` | 전문 텍스트 마크다운 |
 | | `README.md` | 작품 개요 및 서지 안내문 |
 | **`황제내경집해/`** | `황제내경집해 소문_원문열람...html` / `황제내경집해 영추_원문열람...html` | 용백견·용식소 『황제내경집해』 소문·영추 원문 열람판 |
+| **`상용수혈임상발휘/`** | `상용수혈임상발휘_원문_OCR.html` / `상용수혈임상발휘_원문_OCR.md` | 이세진 『常用腧穴临床发挥』 중국어 원문 OCR 열람판·전문 마크다운 |
+| | `상용수혈임상발휘_OCR_검수목록.md` | OCR 사전 대조 교정 목록 |
 | **루트 웹 배포 인프라** | `index.html` | 도서관 통합 메인 포털 홈 |
-| | `[slug].html` / `[slug]/index.html` | 21개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
+| | `[slug].html` / `[slug]/index.html` | 22개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
 | | `images/` | 중국침구사도감 고해상도 유물 도판(`fig`, `figzoom`) 공통 자산 |
 | | `deploy_to_gdrive.py` / `.bat` | 로컬 작업공간 ➔ 구글 드라이브 동기화 배포 도구 |
 | | `README.md` | 도서관 종합 설명서 |
